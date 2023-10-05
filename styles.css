@@ -1,0 +1,93 @@
+html
+{height: 100%;
+box-sizing: border-box;}
+
+h3
+{font-family: 'Pixelify Sans', cursive;
+font-size: 60px;
+text-align: center;}
+
+p
+{font-family: 'Pixelify Sans', cursive;
+font-size: 40px;}
+
+.liua
+{font-family: 'Pixelify Sans', cursive;
+    font-size: 30px;}
+
+    h2
+    {text-align: center;
+        font-size: 24px;
+    font-family: 'Pixelify Sans', cursive;;}
+#one
+{font-size: 30px;}
+
+#quote 
+{text-align: center;
+font-size: 24px}
+
+.btn
+{font-family: 'Pixelify Sans', cursive;
+text-align: center;}
+
+.bottom-container
+{background-color: #868686;
+  padding: 50px 0 20px;
+}
+
+#end-part 
+{color: #ffffff;
+text-align: center;
+background-color: #868686;
+font-family: 'Pixelify Sans';
+font-weight:600;}
+
+#end-part
+{color: #ffffff;}
+
+.btn {
+  background-color: #FFFFFF;
+  border: 1px solid #222222;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #222222;
+  cursor: pointer;
+  display: inline-block;
+  font-family:'Pixelify Sans', cursive; ;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  margin: 0;
+  outline: none;
+  padding: 13px 23px;
+  position: relative;
+
+  text-decoration: none;
+  touch-action: manipulation;
+  transition: box-shadow .2s,-ms-transform .1s,-webkit-transform .1s,transform .1s;
+  user-select: none;
+  -webkit-user-select: none;
+  width: auto;
+  float: right;
+}
+
+.btn:focus-visible {
+  box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+  transition: box-shadow .2s;
+}
+
+.btn:active {
+  background-color: #F7F7F7;
+  border-color: #000000;
+  transform: scale(.96);
+}
+
+.btn:disabled {
+  border-color: #DDDDDD;
+  color: #DDDDDD;
+  cursor: not-allowed;
+  opacity: 1;
+}
+
+iframe
+{border: solid #000000;}
